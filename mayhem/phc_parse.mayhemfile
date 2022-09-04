@@ -1,0 +1,7 @@
+project: libreauth
+target: phc-parse
+
+cmds:
+  - cmd: /phc_parse
+  - cmd: /phc_parse_no_inst @@
+    libfuzzer: false
